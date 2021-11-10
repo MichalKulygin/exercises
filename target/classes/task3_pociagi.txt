@@ -1,0 +1,7 @@
+5 5
+Gdynia Sopot
+Gdynia Warszawa
+Sopot Gdansk
+Gdansk Koscierzyna
+Koscierzyna Czluchow
+Gdynia Czluchow
