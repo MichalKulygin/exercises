@@ -1,5 +1,7 @@
 package Task_3;
 
+import static Task_3.ShortestDistanceInGraphFileReader.*;
+
 /**
  * @author MKgn
  */
@@ -11,7 +13,7 @@ class Main {
 //        String task3FilePath = "src/main/resources/task3_trains.txt";
 //        String task3FilePath = "src/main/resources/task3_telecom_core_network.txt";
 
-        ShortestDistanceInGraph shortestDistanceInGraph = ShortestDistanceInGraph.shortestDistanceInGraphFromFile(task3FilePath);
-        shortestDistanceInGraph.displayResults();
+        ShortestDistanceInGraphCalculator sd = ShortestDistanceInGraphCalculator.fromFile((readFile(task3FilePath)));
+        sd.displayResults();
     }
 }
